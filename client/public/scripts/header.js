@@ -8,10 +8,6 @@ const left = document.createElement('li')
 const brand = document.createElement('a')
 brand.className = 'brand'
 const logo = document.createElement('img')
-logo.src = 'logo.png'
-logo.alt = 'Rebuild logo'
-logo.width = 28
-logo.height = 28
 const title = document.createElement('strong')
 title.textContent = 'Rebuild'
 brand.append(logo, ' ', title)
